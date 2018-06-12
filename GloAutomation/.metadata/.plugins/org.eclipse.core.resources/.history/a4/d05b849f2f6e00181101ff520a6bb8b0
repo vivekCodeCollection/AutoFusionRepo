@@ -1,0 +1,88 @@
+package com.sample.utils;
+
+
+
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.autofusionweb.config.BaseTest;
+import com.autofusionweb.config.CommonWebMethods;
+import com.autofusionweb.config.SelectElementByType;
+
+
+public class VerifyBrokenLinks  extends SelectElementByType
+implements BaseTest {
+	
+public static WebDriver driver;
+
+
+	public VerifyBrokenLinks(WebDriver driver) {
+    
+		this.driver=driver;
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public void verifyLinksofPage() {
+		
+		List<WebElement> links = this.driver.findElements(By.tagName("a"));
+
+		System.out.println("Total links are " + links.size());
+
+		// used for loop to iterate to each WebElement of Link
+		  for (int i = 0; i < links.size(); i++) {
+		   WebElement element = links.get(i);
+
+		       // By using "href" attribute, we could get the url of the //requried Link
+		   
+		  String url = element.getAttribute("href");
+
+		// calling verifyLink() method here.Which is created below
+		   verifyLink(url);
+		  }}
+		 
+
+		  // verifyLink(String urlLink)Function verify broken links and //return the server response status.
+
+		 public void verifyLink(String urlLink) {
+		  try {
+
+		      // create object of the URL Class and pass the urlLink as //parameter
+		   URL link = new URL(urlLink);
+
+		// Create a connection using URL object (i.e., link)
+		  HttpURLConnection httpConn = (HttpURLConnection) link.openConnection();
+
+		   // Set the timeout for 3 seconds
+		   httpConn.setConnectTimeout(3000);
+
+		   // connect using connect method
+		   httpConn.connect();
+
+		 // use getResponseCode() to get the response code.
+		   if (httpConn.getResponseCode() == 200) {
+		System.out.println(urlLink + " - " + httpConn.getResponseMessage());
+		 System.out.println(httpConn.getResponseMessage());
+
+		   } else {
+		System.out.println(urlLink + " - " + httpConn.getResponseMessage());
+		System.out.println(httpConn.getResponseMessage());
+		   }
+
+		  }
+
+		  catch (Exception e) {
+		   e.printStackTrace();
+
+		  }
+		 }
+
+		
+	}
+
+

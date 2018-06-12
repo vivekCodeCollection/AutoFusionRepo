@@ -1,0 +1,129 @@
+2018-06-12 11:25:14,773 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-12 11:25:52,507 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/github/temyers/cucumber-jvm-parallel-plugin/4.2.0/cucumber-jvm-parallel-plugin-4.2.0.jar
+2018-06-12 11:25:53,309 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/github/temyers/cucumber-jvm-parallel-plugin/4.2.0/cucumber-jvm-parallel-plugin-4.2.0.jar
+2018-06-12 11:25:54,234 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
+2018-06-12 11:25:54,526 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-surefire-plugin/2.18.1/maven-surefire-plugin-2.18.1.jar
+2018-06-12 11:25:57,741 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/autofusionplus/web/autofusionplus-web/1.5/autofusionplus-web-1.5.pom
+2018-06-12 11:25:57,752 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.autofusionplus.web:autofusionplus-web:jar:1.5 is missing, no dependency information available
+2018-06-12 11:25:58,837 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/6.13/testng-6.13.pom
+2018-06-12 11:25:59,165 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/6.13/testng-6.13.pom
+2018-06-12 11:25:59,451 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/beust/jcommander/1.66/jcommander-1.66.pom
+2018-06-12 11:25:59,467 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 11:25:59,592 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autofusion.websample:autofusionwebsample:0.0.1-SNAPSHOT @ D:\GloAutomation\autofusionwebsample\pom.xml.
+2018-06-12 11:25:59,643 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.autofusionplus.web:autofusionplus-web:jar:1.5 is missing, no dependency information available
+2018-06-12 11:25:59,668 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 11:26:00,935 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/autofusionplus/web/autofusionplus-web/1.5/autofusionplus-web-1.5.jar
+2018-06-12 11:26:00,953 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/autofusionplus/web/autofusionplus-web/1.5/autofusionplus-web-1.5.jar
+2018-06-12 11:26:02,057 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/6.13/testng-6.13.jar
+2018-06-12 11:26:02,402 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/6.13/testng-6.13.jar
+2018-06-12 11:26:04,680 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/6.13/testng-6.13.jar
+2018-06-12 11:26:05,252 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.autofusionplus.web:autofusionplus-web:jar:1.5 is missing, no dependency information available
+2018-06-12 11:26:05,265 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 11:26:05,315 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/6.13/testng-6.13.jar
+2018-06-12 11:26:08,670 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /autofusionwebsample/src/main/java
+2018-06-12 11:26:08,671 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /autofusionwebsample/src/main/resources
+2018-06-12 11:26:08,674 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /autofusionwebsample/src/test/java
+2018-06-12 11:26:08,674 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /autofusionwebsample/src/test/resources
+2018-06-12 11:26:08,833 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 23 sec
+2018-06-12 11:26:14,165 [Worker-7] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/vivek.jha/AppData/Local/Temp/RemoteBundleDiscoveryStrategy3541008716184512086.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_3846154927950499268.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-egit.xml
+2018-06-12 11:26:14,165 [Worker-7] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2018-06-12 11:26:14,169 [Worker-7] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/vivek.jha/AppData/Local/Temp/RemoteBundleDiscoveryStrategy3541008716184512086.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_3846154927950499268.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive.xml
+2018-06-12 11:26:14,169 [Worker-7] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2018-06-12 11:26:14,621 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.autofusionplus.web:autofusionplus-web:jar:1.5 is missing, no dependency information available
+2018-06-12 11:26:14,633 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 11:26:14,687 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:26:14,697 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:26:14,701 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:26:14,702 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-12 11:33:42,077 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\GloAutomation\autofusionwebsample
+2018-06-12 11:33:42,078 [Worker-1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-06-12 11:33:47,589 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:33:47,596 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:33:47,599 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:33:47,601 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-12 11:33:59,558 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\GloAutomation\autofusionwebsample
+2018-06-12 11:33:59,559 [Worker-20] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-06-12 11:34:24,953 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:34:24,953 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:34:24,955 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:34:24,955 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-12 11:36:21,848 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:36:21,848 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:36:21,850 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:36:21,850 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:37:34,069 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:37:34,069 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:37:34,071 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:37:34,072 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-12 11:37:35,153 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:37:35,153 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:37:35,155 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:37:35,156 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:37:55,285 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\GloAutomation\autofusionwebsample
+2018-06-12 11:37:55,285 [Worker-17] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-06-12 11:38:20,074 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:38:20,075 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:38:20,077 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:38:20,078 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-12 11:38:39,717 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-06-12 11:38:40,556 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autofusion.websample:autofusionwebsample:0.0.1-SNAPSHOT @ D:\GloAutomation\autofusionwebsample\pom.xml.
+2018-06-12 11:38:42,100 [Worker-23] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/beust/jcommander/1.66/jcommander-1.66.pom
+2018-06-12 11:38:42,108 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 11:38:42,524 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /autofusionwebsample/src/main/java
+2018-06-12 11:38:42,524 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /autofusionwebsample/src/main/resources
+2018-06-12 11:38:42,525 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /autofusionwebsample/src/test/java
+2018-06-12 11:38:42,526 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /autofusionwebsample/src/test/resources
+2018-06-12 11:38:42,905 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2018-06-12 11:38:43,282 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 11:38:43,313 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:38:43,314 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 11:38:43,318 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 11:38:43,319 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-12 12:23:31,082 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autofusion.websample:autofusionwebsample:0.0.1-SNAPSHOT @ D:\GloAutomation\autofusionwebsample\pom.xml.
+2018-06-12 12:23:31,105 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 12:23:31,377 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 12:23:31,380 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 12:23:31,383 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 12:23:31,384 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 12:23:51,245 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-06-12 12:23:51,716 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.autofusion.websample:autofusionwebsample:0.0.1-SNAPSHOT @ D:\GloAutomation\autofusionwebsample\pom.xml.
+2018-06-12 12:23:53,109 [Worker-27] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/beust/jcommander/1.66/jcommander-1.66.pom
+2018-06-12 12:23:53,117 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 12:23:53,295 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /autofusionwebsample/src/main/java
+2018-06-12 12:23:53,295 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /autofusionwebsample/src/main/resources
+2018-06-12 12:23:53,296 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /autofusionwebsample/src/test/java
+2018-06-12 12:23:53,297 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /autofusionwebsample/src/test/resources
+2018-06-12 12:23:53,716 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-06-12 12:23:54,154 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 12:23:54,204 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 12:23:54,205 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 12:23:54,208 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 12:23:54,208 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-06-12 12:41:20,466 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-06-12 12:42:15,042 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.beust:jcommander:jar:1.66 is missing, no dependency information available
+2018-06-12 12:44:42,987 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/autofusionplus/web/autofusionplus-web/1.5/autofusionplus-web-1.5-sources.jar
+2018-06-12 12:44:43,013 [Worker-3] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.autofusionplus.web:autofusionplus-web:1.5
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.autofusionplus.web:autofusionplus-web:jar:sources:1.5
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:264) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:243) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:217) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.8.2.20171007-0217.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.2.v20171030-1027.jar:na]
+2018-06-12 12:44:44,220 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 12:44:44,226 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-12 12:44:44,229 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-12 12:44:44,230 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

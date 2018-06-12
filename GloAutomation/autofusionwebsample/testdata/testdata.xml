@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+    <Account type="login">
+        <loginid>admin</loginid>
+        <loginpass>admin</loginpass>
+    </Account>
+    <Account type="invalid">
+        <invalidlogin>admin</invalidlogin>
+        <invalidpass>admin123</invalidpass>
+    </Account>
+</testdata>

@@ -1,0 +1,48 @@
+#Environment - Prod, QA, Staging, Dev
+ENVIRONMENT=Staging
+
+#browser - Firefox, Chrome, IE, Safari
+BROWSERS_NAME =Chorme
+
+#localhost,grid
+ENV_TYPE=localhost
+
+#Test Runner - parallel, distributed
+RUNNER=parallel
+
+#Framework - testng, cucumber
+FRAMEWORK=testng
+
+#Path of test data file
+TESTDATA=testdata/testdata.xml
+
+#Project Details
+PROJECTNAME=ExtentReports
+REPORTNAME=ExtentReports
+
+INCLUDE_GROUPS=smoke
+#EXCLUDE_GROUPS=ignore,sanity
+
+#Application url
+APP_URL=http://opensource.demo.orangehrmlive.com/
+APP_USER=admin
+APP_PASS=admin
+
+#For location execution
+IEDRIVER = C:\\Projects\\Automation\\MavenWD\\autofusionweb\\lib\\IEDriverServer.exe
+FFDRIVER = /Users/dhirendra.jha/Documents/AutomationJars/WebDriver/geckodriver
+CHROMEDRIVER = /Users/dhirendra.jha/Documents/AutomationJars/WebDriver/chromedriver
+
+#For Grid execution (IP Address:Port)
+IEREMOTE =172.16.34.69:5555
+CHROMEREMOTE =172.16.34.38:5556
+FFREMOTE =172.16.34.38:5555
+SAFARIREMOTE=172.16.34.38:5557
+
+REPORT_SERVER=false
+
+MONGODB_SERVER=localhost
+MONGODB_PORT=27017
+
+
+#mvn clean "-DfeatureName=src/test/resources/features" "-DfeatureGlue=com.sample.step" "-DfeatureTag=@smoke" -Dtest=RunnerCukes test

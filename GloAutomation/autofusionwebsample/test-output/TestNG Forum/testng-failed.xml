@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="2" name="Failed suite [TestNG Forum]" parallel="tests">
+  <listeners>
+    <listener class-name="com.autofusionweb.manager.WebDriverManager"/>
+    <listener class-name="com.autofusionweb.utils.RetryListener"/>
+  </listeners>
+  <test thread-count="1" verbose="2" name="TestNG Test0(failed)" parallel="tests">
+    <parameter name="browser" value="CHROME"/>
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.sample.test.TestCase2">
+        <methods>
+          <include name="testInValidLogin"/>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="startWebDriverServer"/>
+          <include name="killWebDriverServer"/>
+          <include name="afterClass"/>
+          <include name="killServer"/>
+        </methods>
+      </class> <!-- com.sample.test.TestCase2 -->
+      <class name="com.sample.test.TestCase3">
+        <methods>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="testSkipLogin"/>
+          <include name="startWebDriverServer"/>
+          <include name="killWebDriverServer"/>
+          <include name="afterClass"/>
+          <include name="killServer"/>
+        </methods>
+      </class> <!-- com.sample.test.TestCase3 -->
+    </classes>
+  </test> <!-- TestNG Test0(failed) -->
+</suite> <!-- Failed suite [TestNG Forum] -->

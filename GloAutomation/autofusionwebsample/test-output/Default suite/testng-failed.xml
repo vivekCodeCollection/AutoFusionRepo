@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.sample.test.TestCase1">
+        <methods>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="startWebDriverServer"/>
+          <include name="killWebDriverServer"/>
+          <include name="afterClass"/>
+          <include name="killServer"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- com.sample.test.TestCase1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.sample.test.TestCase2">
+        <methods>
+          <include name="testInValidLogin"/>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="killWebDriverServer"/>
+          <include name="startWebDriverServer"/>
+          <include name="afterClass"/>
+          <include name="killServer"/>
+        </methods>
+      </class> <!-- com.sample.test.TestCase2 -->
+      <class name="com.sample.test.TestCase3">
+        <methods>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="testSkipLogin"/>
+          <include name="killWebDriverServer"/>
+          <include name="startWebDriverServer"/>
+          <include name="afterClass"/>
+          <include name="killServer"/>
+        </methods>
+      </class> <!-- com.sample.test.TestCase3 -->
+      <class name="com.sample.test.TestCase1">
+        <methods>
+          <include name="startApp"/>
+          <include name="beforeClass"/>
+          <include name="killWebDriverServer"/>
+          <include name="startWebDriverServer"/>
+          <include name="afterClass"/>
+          <include name="killServer"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- com.sample.test.TestCase1 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
